@@ -70,10 +70,7 @@ let mobileNav_width=mobile_nav.innerWidth();
       $(window).scrollTop(0,0);
   })
   //nice scroll 
-  $("body").niceScroll({
-    cursorcolor:"aquamarine",
-    cursorwidth:"8px"
-  });
+  $("html").niceScroll();
 });
 
 
